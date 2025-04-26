@@ -6,4 +6,9 @@ Este aplicativo móv- [Configuración del Ambiente de Desarrollo](#configuració
 *Figura 1: Instalacion de Android Studio*
 
 
+
 *<b>Figura 2:</b> Diagrama de Despliegue*
+
+
+
+# Requerimientos No funcionales
