@@ -7,8 +7,14 @@ Este aplicativo móv- [Configuración del Ambiente de Desarrollo](#configuració
 
 
 
+# Diagrama de Despliegue:
+Explicalo
+
 *<b>Figura 2:</b> Diagrama de Despliegue*
 
 
 
-# Requerimientos No funcionales
+# Requerimientos No funcionales:
+
+
+# 
