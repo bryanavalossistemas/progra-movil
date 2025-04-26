@@ -16,7 +16,7 @@ Explicalo
 
 
 # Requerimientos No funcionales:
-
+.
 
 # Diagrama de Casos de Uso:
 
