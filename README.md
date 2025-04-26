@@ -17,4 +17,9 @@ Explicalo
 # Requerimientos No funcionales:
 
 
-# 
+# Diagrama de Casos de Uso:
+
+*<b>Figura 3:</b> Diagrama de Casos de Uso*
+
+
+# Descripción de Casos de Uso:
