@@ -8,8 +8,11 @@ Este aplicativo móv- [Configuración del Ambiente de Desarrollo](#configuració
 
 
 # Diagrama de Despliegue:
-Explicalo
-ñ
+
+Nuestro Diagrama de despliegue muestra una arquitectura distribuida en donde el usuario interactua en una app movil (AprendeMath) que sera en diapositivos Android, donde se ejecutara un protocolo HTTPS, con un servicio de  con un servicio backend desplegado en Azure App Service, que procesa las solicitudes y ejecuta la lógica de negocio. A su vez, el backend consulta y almacena la información en una base de datos Azure SQL Database denominada "dataPrograMovil", mediante conexiones internas seguras dentro de la nube de Azure. 
+
+![image](https://github.com/user-attachments/assets/8acf84a6-6032-4636-b2a1-5cffc47dfe4c)
+
 
 *<b>Figura 2:</b> Diagrama de Despliegue*
 
