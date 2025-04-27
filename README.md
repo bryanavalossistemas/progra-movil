@@ -69,6 +69,9 @@ Permite al usuario ver los niveles o secciones superadas dentro de la aplicació
 ![img11](imgs/start_nivel.jpeg)
 ### 4.**Actualizar Datos:**
 Permite al usuario modificar sus datos de perfil, como nombre, correo electrónico o foto.
+<br><br>
+![img12](imgs/perfil.jpeg)
+![img13](imgs/editar_usuario.jpeg)
 ### 5.**Cambiar Módulos:**
 Permite al usuario seleccionar entre diferentes módulos de aprendizaje para continuar su progreso.
 ### 6.**Cerrar Sesión:** 
