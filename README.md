@@ -61,7 +61,7 @@ Permite al usuario crear un nuevo registro proporcionando sus datos personales y
 Permite al usuario recuperar el acceso a su cuenta mediante un correo de restablecimiento de contraseña.
 <br><br>
 ![img08](imgs/login.jpeg)
-![img09](imgs/recuperar contraseña.jpeg)
+![img09](imgs/recuperar_contraseña.jpeg)
 ### 3.**Actualizar Datos:**
 Permite al usuario modificar sus datos de perfil, como nombre, correo electrónico o foto.
 ### 4.**Cambiar Módulos:**
