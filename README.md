@@ -74,11 +74,25 @@ Permite al usuario modificar sus datos de perfil, como nombre, correo electróni
 ![img13](imgs/editar_usuario.jpeg)
 ### 5.**Cambiar Módulos:**
 Permite al usuario seleccionar entre diferentes módulos de aprendizaje para continuar su progreso.
+<br><br>
+![img14](imgs/Principal.jpeg)
+![img15](imgs/cambiar_modulos.jpeg)
 ### 6.**Cerrar Sesión:** 
 Permite al usuario salir de su cuenta de forma segura, cerrando su sesión actual.
+<br><br>
+![img14](imgs/Principal.jpeg)
+![img15](imgs/cerrar_sesión.jpeg)
 ### 7.**Responder Pregunta:**
 Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuestionarios y enviar su respuesta seleccionada y recibir retroalimentación sobre su validez.
+<br><br>
+![img16](imgs/quiz.jpeg)
+![img17](imgs/quiz_correcto.jpeg)
+![img18](imgs/quiz_incorrecto.jpeg)
+![img19](imgs/quiz_final.jpeg)
 ### 8.**Consultar Medallas:**
 Permite al usuario visualizar las medallas obtenidas por su rendimiento y logros alcanzados.
+<br><br>
+![img20](imgs/insignias.jpeg)
+![img21](imgs/ver_insignia.jpeg)
 
-# Descripción de Casos de Uso:
+
