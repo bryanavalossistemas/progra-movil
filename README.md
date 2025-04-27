@@ -83,8 +83,8 @@ Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuesti
 Permite al usuario avanzar en un sección o modulo bloqueado desarrollando un examen a la sección o módulo seleccionado.
 <br><br>
 ![img18](imgs/Principal.jpeg)
-![img19](imgs/cambiar_modulo.jpeg)
-![img20](imgs/Examen.jpeg)
+![img19](imgs/cambiar_modulos.jpeg)
+![img20](imgs/examen.jpeg)
 ### 6.**Actualizar Datos:**
 Permite al usuario modificar sus datos de perfil, como nombre, correo electrónico o foto.
 <br><br>
