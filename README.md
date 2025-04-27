@@ -55,7 +55,7 @@ Permite al usuario autenticarse ingresando sus credenciales para acceder a su cu
 ### 2.**Registrar**
 Permite al usuario crear un nuevo registro proporcionando sus datos personales y de acceso.
 <br><br>
-![img06](imgs/inicial.jpeg)
+![img06](imgs/login.jpeg)
 ![img07](imgs/registro.jpeg)
 ### 3.**Recuperar Contraseña**
 Permite al usuario recuperar el acceso a su cuenta mediante un correo de restablecimiento de contraseña.
