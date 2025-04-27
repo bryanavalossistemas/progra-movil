@@ -49,7 +49,10 @@ Los requerimientos no funcionales definen las características de calidad que de
 # Descripción de Casos de Uso:
 ### 1. **Iniciar Sesión**
 Permite al usuario autenticarse ingresando sus credenciales para acceder a su cuenta.
+
+
 &nbsp;
+
 ![img04](imgs/inicial.jpeg)
 ![img05](imgs/login.jpeg)
 ### 2. **Registrar**
