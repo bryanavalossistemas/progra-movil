@@ -55,6 +55,8 @@ Permite al usuario autenticarse ingresando sus credenciales para acceder a su cu
 ### 2.**Registrar**
 Permite al usuario crear un nuevo registro proporcionando sus datos personales y de acceso.
 <br><br>
+![img06](imgs/inicial.jpeg)
+![img07](imgs/registro.jpeg)
 ### 3.**Recuperar Contraseña**
 Permite al usuario recuperar el acceso a su cuenta mediante un correo de restablecimiento de contraseña.
 <br><br>
@@ -67,9 +69,8 @@ Permite al usuario salir de su cuenta de forma segura, cerrando su sesión actua
 ### 6.**Consultar Niveles:**
 Permite al usuario ver los niveles o secciones superadas dentro de la aplicación educativa.
 ### 7.**Responder Pregunta:**
-Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuestionarios.
-- **Confirmar Respuesta:** Permite al usuario enviar su respuesta seleccionada y recibir retroalimentación sobre su validez.
-- **Consultar Medallas:** Permite al usuario visualizar las medallas obtenidas por su rendimiento y logros alcanzados.
--
+Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuestionarios y enviar su respuesta seleccionada y recibir retroalimentación sobre su validez.
+### 8.**Consultar Medallas:**
+Permite al usuario visualizar las medallas obtenidas por su rendimiento y logros alcanzados.
 
 # Descripción de Casos de Uso:
