@@ -62,14 +62,17 @@ Permite al usuario recuperar el acceso a su cuenta mediante un correo de restabl
 <br><br>
 ![img08](imgs/login.jpeg)
 ![img09](imgs/recuperar_contraseña.jpeg)
-### 3.**Actualizar Datos:**
+### 3.**Consultar Niveles:**
+Permite al usuario ver los niveles o secciones superadas dentro de la aplicación educativa y poder inciar los diferentes niveles en la sección.
+<br><br>
+![img10](imgs/Principal.jpeg)
+![img11](imgs/start_nivel.jpeg)
+### 4.**Actualizar Datos:**
 Permite al usuario modificar sus datos de perfil, como nombre, correo electrónico o foto.
-### 4.**Cambiar Módulos:**
+### 5.**Cambiar Módulos:**
 Permite al usuario seleccionar entre diferentes módulos de aprendizaje para continuar su progreso.
-### 5.**Cerrar Sesión:** 
+### 6.**Cerrar Sesión:** 
 Permite al usuario salir de su cuenta de forma segura, cerrando su sesión actual.
-### 6.**Consultar Niveles:**
-Permite al usuario ver los niveles o secciones superadas dentro de la aplicación educativa.
 ### 7.**Responder Pregunta:**
 Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuestionarios y enviar su respuesta seleccionada y recibir retroalimentación sobre su validez.
 ### 8.**Consultar Medallas:**
