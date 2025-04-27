@@ -93,7 +93,7 @@ Permite al usuario modificar sus datos de perfil, como nombre, correo electróni
 ### 7.**Cerrar Sesión:** 
 Permite al usuario salir de su cuenta de forma segura, cerrando su sesión actual.
 <br><br>
-![img23](imgs/Principal.jpeg)
+![img23](imgs/perfil.jpeg)
 ![img24](imgs/cerrar_sesión.jpeg)
 ### 8.**Consultar Medallas:**
 Permite al usuario visualizar las medallas obtenidas por su rendimiento y logros alcanzados.
