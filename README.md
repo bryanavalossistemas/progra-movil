@@ -47,21 +47,29 @@ Los requerimientos no funcionales definen las características de calidad que de
 
 *<b>Figura 3:</b> Diagrama de Casos de Uso*
 # Descripción de Casos de Uso:
-### 1. **Iniciar Sesión**
+### 1.**Iniciar Sesión**
 Permite al usuario autenticarse ingresando sus credenciales para acceder a su cuenta.
 <br><br>
 ![img04](imgs/inicial.jpeg)
 ![img05](imgs/login.jpeg)
-### 2. **Registrar**
+### 2.**Registrar**
 Permite al usuario crear un nuevo registro proporcionando sus datos personales y de acceso.
-### 3. **Recuperar Contraseña**
+<br><br>
+### 3.**Recuperar Contraseña**
 Permite al usuario recuperar el acceso a su cuenta mediante un correo de restablecimiento de contraseña.
-- **Actualizar Información Personal:** Permite al usuario modificar sus datos de perfil, como nombre, correo electrónico o foto.
-- **Cambiar Módulos:** Permite al usuario seleccionar entre diferentes módulos de aprendizaje para continuar su progreso.
-- **Cerrar Sesión:** Permite al usuario salir de su cuenta de forma segura, cerrando su sesión actual.
-- **Responder Pregunta:** Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuestionarios.
+<br><br>
+### 3.**Actualizar Datos:**
+Permite al usuario modificar sus datos de perfil, como nombre, correo electrónico o foto.
+### 4.**Cambiar Módulos:**
+Permite al usuario seleccionar entre diferentes módulos de aprendizaje para continuar su progreso.
+### 5.**Cerrar Sesión:** 
+Permite al usuario salir de su cuenta de forma segura, cerrando su sesión actual.
+### 6.**Consultar Niveles:**
+Permite al usuario ver los niveles o secciones superadas dentro de la aplicación educativa.
+### 7.**Responder Pregunta:**
+Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuestionarios.
 - **Confirmar Respuesta:** Permite al usuario enviar su respuesta seleccionada y recibir retroalimentación sobre su validez.
 - **Consultar Medallas:** Permite al usuario visualizar las medallas obtenidas por su rendimiento y logros alcanzados.
-- **Consultar Niveles:** Permite al usuario ver los niveles o etapas superadas dentro de la aplicación educativa.
+-
 
 # Descripción de Casos de Uso:
