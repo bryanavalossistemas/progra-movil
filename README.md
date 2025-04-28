@@ -72,7 +72,7 @@ Permite al usuario seleccionar entre diferentes módulos de aprendizaje solo si 
 <br><br>
 ![img12](imgs/Principal.jpeg)
 ![img13](imgs/cambiar_modulos.jpeg)
-### 5.**Responder Pregunta:**
+### 5.**Responder Cuestionario:**
 Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuestionarios y enviar su respuesta seleccionada y recibir retroalimentación sobre su validez.
 <br><br>
 ![img14](imgs/quiz.jpeg)
@@ -80,7 +80,7 @@ Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuesti
 ![img16](imgs/quiz_incorrecto.jpeg)
 ![img17](imgs/quiz_final.jpeg)
 ### 6.**Avanzar Etapa:**
-Permite al usuario avanzar en un sección o modulo bloqueado desarrollando un examen a la sección o módulo seleccionado.
+Permite al usuario avanzar a una sección o modulo bloqueado desarrollando un examen en base a la sección o módulo seleccionado.
 <br><br>
 ![img18](imgs/Principal.jpeg)
 ![img19](imgs/cambiar_modulos.jpeg)
