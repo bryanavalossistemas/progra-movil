@@ -61,6 +61,13 @@ Ejecuta el siguiente comando:
 
 flutter doctor
 
+## Configuración del Ambiente de Desarrollo
+![img01](imgs/android.jpg)
+
+*Figura 1: Instalacion de Android Studio*
+
+
+
 # Diagrama de Despliegue:
 
 Nuestro Diagrama de despliegue muestra una arquitectura distribuida en donde el usuario interactua en una app movil (AprendeMath) que sera en diapositivos Android, donde se ejecutara un protocolo HTTPS, con un servicio de  con un servicio backend desplegado en Azure App Service, que procesa las solicitudes y ejecuta la lógica de negocio. A su vez, el backend consulta y almacena la información en una base de datos Azure SQL Database denominada "dataPrograMovil", mediante conexiones internas seguras dentro de la nube de Azure. 
@@ -77,23 +84,26 @@ Nuestro Diagrama de despliegue muestra una arquitectura distribuida en donde el 
 Los requerimientos no funcionales definen las características de calidad que debe cumplir el aplicativo móvil AprendeMath para garantizar su correcto funcionamiento durante el desarrollo y evaluación académica.
 
 - **Seguridad:**  
-  La aplicación debe utilizar el protocolo **HTTPS** para todas las comunicaciones. Las contraseñas deben almacenarse aplicando cifrado básico para evitar su almacenamiento en texto plano.
+  Toda comunicación entre el móvil y el backend deben realizarse mediante el protocolo **HTTPS** garantizando la integridad y confidencialidad de los datos. Las credenciales del usuario, especialmente las contraseñas, serán cifradas. Adicionalmente se implementarán sistemas de autenticación y validación entre sesiones.
 
 - **Rendimiento:**  
-  El tiempo de respuesta para las principales acciones (**inicio de sesión**, **carga de módulos**, **confirmación de respuestas**) no debe exceder los **7 segundos** bajo condiciones normales de uso.
+  El tiempo de respuesta de operaciones críticas (**inicio de sesión**, **carga de módulos**, **respuestas a cuestionarios**) no debe exceder los **5 segundos** bajo condiciones normales de conectividad. Asimismo, el tiempo de renderizado de las vistas principales no debe exceder **2 segundos** desde la interacción del usuario.
+
 
 - **Disponibilidad:**  
-  La aplicación debe estar disponible de manera continua, permitiendo **reinicios manuales** en caso de fallas técnicas.
+  La aplicación debe garantizar una disponibilidad de al menos **99%** durante periodos normales. En caso de fallos, se debe tener la opción de realizar **reinicios manuales** en el backend para minimizar el tiempo de inactividad.
 
 - **Usabilidad:**  
-  El proceso de **registro** de un nuevo usuario debe completarse en un tiempo máximo de **3 minutos**, y el usuario debe poder iniciar su primer **quiz** en menos de **6 minutos** sin necesidad de asistencia.
+  El proceso de registro de un nuevo usuario será intuitivo, completándose en menos de **3 minutos**. Un usuario nuevo debe ser capaz de iniciar y completar su primer cuestionario en menos de **6 minutos** desde el momento de la instalación sin necesidad de asistencia externa. La navegación será fluida y con retroalimentación clara en todas las acciones.
 
 - **Compatibilidad:**  
-  La aplicación debe ser compatible con dispositivos Android que utilicen la versión **8.0 (Oreo)** o superior, y adaptarse correctamente a diferentes tipos de pantallas entre **5 y 10 pulgadas**.
+  La aplicación funcionará en dispositivos móviles con sistema operativo **Android 8.0** o superior. Se adaptará a dispositivos de **5 a 10 pulgadas**, procurando que no haya pérdidas en contenido o errores de diseño visual.
 
 - **Recuperación ante errores:**  
-  En caso de **errores de conexión** o **fallos de servidor**, la aplicación debe notificar al usuario e intentar restablecer la acción de manera sencilla.
+  En caso de fallas en la conexión, la aplicación debe notificar al usuario mediante mensajes amigables e intentar reintentos automáticos de reconexión. En caso de fallas en servidores, se insistirán estos reinicios.
 
+- **Mantenibilidad:**  
+  El código fuente de la aplicación debe seguir principios de desarrollo limpio, modular y documentado, permitiendo actualizaciones rápidas y seguras.
 
 
 # Diagrama de Casos de Uso:
@@ -103,55 +113,55 @@ Los requerimientos no funcionales definen las características de calidad que de
 *<b>Figura 3:</b> Diagrama de Casos de Uso*
 # Descripción de Casos de Uso:
 ### 1.**Iniciar Sesión**
-Permite al usuario autenticarse ingresando sus credenciales para acceder a su cuenta.
+El usuario ingresa su nombre de usuario y contraseña previamente registrados. El sistema valida las credenciales y, en caso de ser correctas, permite el acceso al menú principal de la aplicación.
 <br><br>
 ![img04](imgs/inicial.jpeg)
 ![img05](imgs/login.jpeg)
 ### 2.**Registrar**
-Permite al usuario crear un nuevo registro proporcionando sus datos personales y de acceso.
+El usuario proporciona su información personal (nombre de usuario, correo electrónico, contraseña, edad, género). La aplicación verifica que los datos sean válidos y únicos (sin correos repetidos) antes de crear la nueva cuenta.
 <br><br>
 ![img06](imgs/login.jpeg)
 ![img07](imgs/registro.jpeg)
 ### 3.**Recuperar Contraseña**
-Permite al usuario recuperar el acceso a su cuenta mediante un correo de restablecimiento de contraseña.
+Si el usuario olvida su contraseña, puede solicitar un enlace de recuperación enviado a su correo registrado. Una vez recibido, podrá restablecer su contraseña y volver a acceder normalmente.
 <br><br>
 ![img08](imgs/login.jpeg)
 ![img09](imgs/recuperar_contraseña.jpeg)
 ### 4.**Consultar Niveles:**
-Permite al usuario ver los niveles o secciones superadas dentro de la aplicación educativa y poder inciar los diferentes niveles en la sección.
+El usuario accede a un listado de niveles disponibles dentro del módulo de aprendizaje. Puede visualizar tanto los niveles desbloqueados como los completados, y seleccionar uno para comenzar.
 <br><br>
 ![img10](imgs/Principal.jpeg)
 ![img11](imgs/start_nivel.jpeg)
 ### 5.**Cambiar Módulos:**
-Permite al usuario seleccionar entre diferentes módulos de aprendizaje solo si los tienes debloqueados.
+Permite al usuario cambiar entre distintos módulos temáticos de diferentes temas. Solo podrá acceder a módulos que haya desbloqueado previamente cumpliendo los requisitos necesarios.
 <br><br>
 ![img12](imgs/Principal.jpeg)
 ![img13](imgs/cambiar_modulos.jpeg)
 ### 6.**Responder Cuestionario:**
-Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuestionarios y enviar su respuesta seleccionada y recibir retroalimentación sobre su validez.
+Dentro de un nivel o módulo, el usuario responde una serie de preguntas o ejercicios interactivos. Al finalizar cada respuesta, recibe retroalimentación inmediata sobre si fue correcta o incorrecta.
 <br><br>
 ![img14](imgs/quiz.jpeg)
 ![img15](imgs/quiz_correcto.jpeg)
 ![img16](imgs/quiz_incorrecto.jpeg)
 ![img17](imgs/quiz_final.jpeg)
 ### 7.**Avanzar Etapa:**
-Permite al usuario avanzar a una sección o modulo bloqueado desarrollando un examen en base a la sección o módulo seleccionado.
+Permite al usuario avanzar a una sección o modulo bloqueado desarrollando exitosamente un examen en base a la sección o módulo seleccionado.
 <br><br>
 ![img18](imgs/Principal.jpeg)
 ![img19](imgs/cambiar_modulos.jpeg)
 ![img20](imgs/examen.jpeg)
 ### 8.**Actualizar Datos:**
-Permite al usuario modificar sus datos de perfil, como nombre, correo electrónico o foto.
+Desde la sección de perfil, el usuario puede modificar su información personal, como el nombre de usuario, correo electrónico o foto de perfil. Los cambios son guardados en la base de datos de manera segura.
 <br><br>
 ![img21](imgs/perfil.jpeg)
 ![img22](imgs/editar_usuario.jpeg)
 ### 9.**Cerrar Sesión:** 
-Permite al usuario salir de su cuenta de forma segura, cerrando su sesión actual.
+El usuario puede finalizar su sesión actual cerrando su cuenta en el dispositivo. Esto ayuda a proteger su información en caso de usar un dispositivo compartido o público.
 <br><br>
 ![img23](imgs/perfil.jpeg)
 ![img24](imgs/cerrar_sesión.jpeg)
 ### 10.**Consultar Medallas:**
-Permite al usuario visualizar las medallas obtenidas por su rendimiento y logros alcanzados.
+El usuario accede a una sección donde puede visualizar las medallas o insignias que ha ganado gracias a su desempeño, participación y logros dentro de la plataforma.
 <br><br>
 ![img25](imgs/insignias.jpeg)
 ![img26](imgs/ver_insignia.jpeg)
