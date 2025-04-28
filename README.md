@@ -38,8 +38,8 @@ Para comenzar con Flutter, sigue estos pasos:
 
 Visita el sitio oficial de Flutter en flutter.dev y descarga el archivo ZIP del SDK correspondiente a tu sistema operativo.
 Descomprime el archivo en una ubicación sin espacios o caracteres especiales en la ruta.
-Ejemplo de ruta recomendada: C:\flutter\ o /usr/local/flutter/.
-⚠️ Importante: Evita descomprimir Flutter en directorios como C:\Program Files\ debido a posibles restricciones de permisos.
+Ejemplo de ruta recomendada: `C:\flutter\` o `/usr/local/flutter/`.
+⚠️ Importante: Evita descomprimir Flutter en directorios como `C:\Program Files\` debido a posibles restricciones de permisos.
 
 # 🛠️ Configuración de Variables de Entorno
 Después de instalar Flutter, es necesario configurar las variables de entorno para que el sistema pueda reconocer los comandos de Flutter.
@@ -49,8 +49,8 @@ Ve a Panel de control > Sistema y seguridad > Sistema > Configuración avanzada 
 En la ventana emergente, selecciona Variables de entorno.
 Dentro de Variables del sistema, localiza la variable Path y selecciona Editar.
 Agrega una nueva entrada con la ruta completa hacia la carpeta flutter/bin (donde descomprimiste Flutter).
-Ejemplo: C:\flutter\bin\ o /usr/local/flutter/bin.
-💡 Consejo: Asegúrate de que el comando flutter esté disponible en tu terminal ejecutando flutter --version.
+Ejemplo: `C:\flutter\bin\` o `/usr/local/flutter/bin`.
+💡 Consejo: Asegúrate de que el comando `flutter` esté disponible en tu terminal ejecutando `flutter --version`.
 
 # ✅ Verificación de la Instalación de Flutter
 Para asegurarte de que todo está configurado correctamente:
