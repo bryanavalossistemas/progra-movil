@@ -6,8 +6,64 @@ La plataforma integra módulos de práctica 📈, evaluaciones automáticas 🧠
 
 
 # Guía de Desarrollo para la Aplicación AprendeMath
+# 🚀 Breve Descripción del Entorno de Desarrollo 💻
+El entorno de desarrollo para la aplicación AprendeMath está construido sobre Flutter, una tecnología de desarrollo multiplataforma que permite crear aplicaciones móviles de alto rendimiento para iOS y Android. Además, Android Studio se utiliza para gestionar emuladores, entornos de desarrollo y los SDKs necesarios para la ejecución en dispositivos Android.
 
-Este aplicativo móv- [Configuración del Ambiente de Desarrollo](#configuración-del-ambiente-de-desarrollo)
+Flutter: Sitio oficial de Flutter
+Android Studio: Sitio oficial de Android Studio
+# 🛠️ Descarga e Instalación de Android Studio
+Para comenzar a desarrollar con Android Studio, sigue estos pasos:
+
+Visita el sitio oficial de Android Studio en: developer.android.com/studio
+
+Descarga el instalador correspondiente a tu sistema operativo (Windows, macOS o Linux).
+
+Ejecuta el instalador y sigue las instrucciones del asistente:
+
+Asegúrate de instalar también el Android SDK y el Android Virtual Device (AVD Manager).
+
+Finalizada la instalación, abre Android Studio y configura el SDK si el asistente lo solicita.
+
+# 📂 Ejemplo de ruta recomendada para el SDK:
+
+Windows: C:\Android\Sdk\
+
+macOS/Linux: /Users/tuusuario/Library/Android/sdk/
+
+⚠️ Importante: Evita instalar Android Studio en carpetas con espacios en el nombre, como C:\Program Files\, para prevenir problemas de permisos y ejecución de emuladores.
+
+# 📥 Descarga e Instalación del SDK de Flutter
+Para comenzar con Flutter, sigue estos pasos:
+
+Visita el sitio oficial de Flutter en flutter.dev y descarga el archivo ZIP del SDK correspondiente a tu sistema operativo.
+Descomprime el archivo en una ubicación sin espacios o caracteres especiales en la ruta.
+Ejemplo de ruta recomendada: C:\flutter\ o /usr/local/flutter/.
+⚠️ Importante: Evita descomprimir Flutter en directorios como C:\Program Files\ debido a posibles restricciones de permisos.
+
+# 🛠️ Configuración de Variables de Entorno
+Después de instalar Flutter, es necesario configurar las variables de entorno para que el sistema pueda reconocer los comandos de Flutter.
+
+Abre las Propiedades del Sistema:
+Ve a Panel de control > Sistema y seguridad > Sistema > Configuración avanzada del sistema.
+En la ventana emergente, selecciona Variables de entorno.
+Dentro de Variables del sistema, localiza la variable Path y selecciona Editar.
+Agrega una nueva entrada con la ruta completa hacia la carpeta flutter/bin (donde descomprimiste Flutter).
+Ejemplo: C:\flutter\bin\ o /usr/local/flutter/bin.
+💡 Consejo: Asegúrate de que el comando flutter esté disponible en tu terminal ejecutando flutter --version.
+
+# ✅ Verificación de la Instalación de Flutter
+Para asegurarte de que todo está configurado correctamente:
+
+Abre una ventana de Símbolo del sistema, PowerShell o una terminal en tu sistema operativo.
+
+Ejecuta el siguiente comando:
+
+flutter doctor
+
+
+
+
+[Configuración del Ambiente de Desarrollo](#configuración-del-ambiente-de-desarrollo)
 ## Configuración del Ambiente de Desarrollo
 ![img01](imgs/android.jpg)
 
