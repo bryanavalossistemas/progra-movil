@@ -27,9 +27,9 @@ Finalizada la instalación, abre Android Studio y configura el SDK si el asisten
 
 # 📂 Ejemplo de ruta recomendada para el SDK:
 
-Windows: C:\Android\Sdk\
+> Windows: C:\Android\Sdk\
 
-macOS/Linux: /Users/tuusuario/Library/Android/sdk/
+> macOS/Linux: /Users/tuusuario/Library/Android/sdk/
 
 ⚠️ Importante: Evita instalar Android Studio en carpetas con espacios en el nombre, como C:\Program Files\, para prevenir problemas de permisos y ejecución de emuladores.
 
