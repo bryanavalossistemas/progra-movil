@@ -60,10 +60,6 @@ Ejecuta el siguiente comando:
 
 flutter doctor
 
-
-
-
-[Configuración del Ambiente de Desarrollo](#configuración-del-ambiente-de-desarrollo)
 ## Configuración del Ambiente de Desarrollo
 ![img01](imgs/android.jpg)
 
