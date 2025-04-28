@@ -68,7 +68,7 @@ Permite al usuario ver los niveles o secciones superadas dentro de la aplicació
 ![img10](imgs/Principal.jpeg)
 ![img11](imgs/start_nivel.jpeg)
 ### 4.**Cambiar Módulos:**
-Permite al usuario seleccionar entre diferentes módulos de aprendizaje para continuar su progreso.
+Permite al usuario seleccionar entre diferentes módulos de aprendizaje solo si los tienes debloqueados.
 <br><br>
 ![img12](imgs/Principal.jpeg)
 ![img13](imgs/cambiar_modulos.jpeg)
