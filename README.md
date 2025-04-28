@@ -44,7 +44,7 @@ Los requerimientos no funcionales definen las características de calidad que de
 
 # Diagrama de Casos de Uso:
 
-![img02](imgs/Diagrama%20de%20Casos%20de%20Uso.jpg)
+![img02](imgs/image.png)
 
 *<b>Figura 3:</b> Diagrama de Casos de Uso*
 # Descripción de Casos de Uso:
