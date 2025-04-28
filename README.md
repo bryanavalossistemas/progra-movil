@@ -1,4 +1,5 @@
-AprendeMath - Grupo 4 ✏️📚
+# 2025-1 AprendeMath - Grupo 4 ✏️📚 
+
 La aplicación AprendeMath está diseñada para ayudar a los usuarios a aprender matemáticas de manera sencilla y efectiva. A través de lecciones interactivas, ejercicios dinámicos y desafíos adaptados al nivel de cada estudiante, AprendeMath convierte el estudio de las matemáticas en una experiencia accesible y motivadora.
 
 La plataforma integra módulos de práctica 📈, evaluaciones automáticas 🧠, y recursos de apoyo visual 🖼️, permitiendo a los usuarios consolidar conceptos clave de forma práctica y divertida. Además, cuenta con un sistema de retroalimentación instantánea para reforzar el aprendizaje en tiempo real.
