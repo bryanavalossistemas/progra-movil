@@ -9,8 +9,9 @@ La plataforma integra módulos de práctica 📈, evaluaciones automáticas 🧠
 # 🚀 Breve Descripción del Entorno de Desarrollo 💻
 El entorno de desarrollo para la aplicación AprendeMath está construido sobre Flutter, una tecnología de desarrollo multiplataforma que permite crear aplicaciones móviles de alto rendimiento para iOS y Android. Además, Android Studio se utiliza para gestionar emuladores, entornos de desarrollo y los SDKs necesarios para la ejecución en dispositivos Android.
 
-Flutter: Sitio oficial de Flutter
-Android Studio: Sitio oficial de Android Studio
+> Flutter: [Sitio oficial de Flutter](https://flutter.dev)  
+> Android Studio: [Sitio oficial de Android Studio](https://developer.android.com/studio)
+
 # 🛠️ Descarga e Instalación de Android Studio
 Para comenzar a desarrollar con Android Studio, sigue estos pasos:
 
