@@ -117,40 +117,40 @@ Permite al usuario recuperar el acceso a su cuenta mediante un correo de restabl
 <br><br>
 ![img08](imgs/login.jpeg)
 ![img09](imgs/recuperar_contraseña.jpeg)
-### 3.**Consultar Niveles:**
+### 4.**Consultar Niveles:**
 Permite al usuario ver los niveles o secciones superadas dentro de la aplicación educativa y poder inciar los diferentes niveles en la sección.
 <br><br>
 ![img10](imgs/Principal.jpeg)
 ![img11](imgs/start_nivel.jpeg)
-### 4.**Cambiar Módulos:**
+### 5.**Cambiar Módulos:**
 Permite al usuario seleccionar entre diferentes módulos de aprendizaje solo si los tienes debloqueados.
 <br><br>
 ![img12](imgs/Principal.jpeg)
 ![img13](imgs/cambiar_modulos.jpeg)
-### 5.**Responder Cuestionario:**
+### 6.**Responder Cuestionario:**
 Permite al usuario seleccionar una respuesta dentro de las evaluaciones o cuestionarios y enviar su respuesta seleccionada y recibir retroalimentación sobre su validez.
 <br><br>
 ![img14](imgs/quiz.jpeg)
 ![img15](imgs/quiz_correcto.jpeg)
 ![img16](imgs/quiz_incorrecto.jpeg)
 ![img17](imgs/quiz_final.jpeg)
-### 6.**Avanzar Etapa:**
+### 7.**Avanzar Etapa:**
 Permite al usuario avanzar a una sección o modulo bloqueado desarrollando un examen en base a la sección o módulo seleccionado.
 <br><br>
 ![img18](imgs/Principal.jpeg)
 ![img19](imgs/cambiar_modulos.jpeg)
 ![img20](imgs/examen.jpeg)
-### 6.**Actualizar Datos:**
+### 8.**Actualizar Datos:**
 Permite al usuario modificar sus datos de perfil, como nombre, correo electrónico o foto.
 <br><br>
 ![img21](imgs/perfil.jpeg)
 ![img22](imgs/editar_usuario.jpeg)
-### 7.**Cerrar Sesión:** 
+### 9.**Cerrar Sesión:** 
 Permite al usuario salir de su cuenta de forma segura, cerrando su sesión actual.
 <br><br>
 ![img23](imgs/perfil.jpeg)
 ![img24](imgs/cerrar_sesión.jpeg)
-### 8.**Consultar Medallas:**
+### 10.**Consultar Medallas:**
 Permite al usuario visualizar las medallas obtenidas por su rendimiento y logros alcanzados.
 <br><br>
 ![img25](imgs/insignias.jpeg)
