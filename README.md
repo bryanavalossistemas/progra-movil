@@ -61,13 +61,6 @@ Ejecuta el siguiente comando:
 
 flutter doctor
 
-## Configuración del Ambiente de Desarrollo
-![img01](imgs/android.jpg)
-
-*Figura 1: Instalacion de Android Studio*
-
-
-
 # Diagrama de Despliegue:
 
 Nuestro Diagrama de despliegue muestra una arquitectura distribuida en donde el usuario interactua en una app movil (AprendeMath) que sera en diapositivos Android, donde se ejecutara un protocolo HTTPS, con un servicio de  con un servicio backend desplegado en Azure App Service, que procesa las solicitudes y ejecuta la lógica de negocio. A su vez, el backend consulta y almacena la información en una base de datos Azure SQL Database denominada "dataPrograMovil", mediante conexiones internas seguras dentro de la nube de Azure. 
