@@ -11,6 +11,8 @@ Este aplicativo móv- [Configuración del Ambiente de Desarrollo](#configuració
 
 Nuestro Diagrama de despliegue muestra una arquitectura distribuida en donde el usuario interactua en una app movil (AprendeMath) que sera en diapositivos Android, donde se ejecutara un protocolo HTTPS, con un servicio de  con un servicio backend desplegado en Azure App Service, que procesa las solicitudes y ejecuta la lógica de negocio. A su vez, el backend consulta y almacena la información en una base de datos Azure SQL Database denominada "dataPrograMovil", mediante conexiones internas seguras dentro de la nube de Azure. 
 
+![Android Studio](https://www.plantuml.com/plantuml/png/ZPE_ZjD04CRxVOfHA8uhJg0hKb2Wov-BG28YuD2bcTWJtoZh7Mjt7JXG2YHw2f2WeqIKw1hwl0al08_0s76YImGIAsKKx-pyvfjljHSXeezLOSq93CGjEAyyfhovSP0HK8Xi1N9ovD6Qi6HNeiS2KYbASUHY4gyjWQSqeiijtJhYH05l3EZgOxhClLGk6uWL3tSkkwFxezus9puZt-wV3xlzNjUiRs5K7IymZVz2ZPhrdoWlBm_Inydf5QTBHo70kJ6HeuusPCmrZxKTGmgbPSehWZFewT-qjMgykLcnXKwlzEGo6cEywXXpeWKBTbn80Ai_TKI2QNpf33cK4ZZoIfHiuKMeqBF0xoyVli_StPxBl71sZvycfnt008NCsUxyt7kY3Sks-SmTD5yRargfCZtokl84W-RZv-UtltwyRu2esplULb92ViMP-CPZ9QcC6jziftIgqZv-RKhdstnRV2HeyXYUNoRJHQMAjgLSJxY3me5AqBLkOXCoZ3Z7e5hw6Xl7CKgOkUqCoRCdC6oFg9fFxzfPzdL_LLGd9rvoZsDHdtPDrqVtevXK7BrY3S6qTf-TFTnF-q3VHr6v_Pq_caudYNgKKFrau1h8fPxBY1cUcbsH0lRg6e8BbOqOwbbgVo5wN6s-XNfMJncmY-GTGgYXohbGY3xEFm00)
+
 ![image](https://github.com/user-attachments/assets/8acf84a6-6032-4636-b2a1-5cffc47dfe4c)
 
 
